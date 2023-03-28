@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+#hero__mobilex2,
+#mobile1x2,
+#mobile2x2,
+#mobile3x2,
+#hero__tablet,
+#hero__tabletx2,
+#tablet1,
+#tablet1x2,
+#tablet2,
+#tablet2x2,
+#tablet3,
+#tablet3x2,
+#hero__desktop,
+#hero__desktopx2,
+#desktop1,
+#desktop1x2,
+#desktop2,
+#desktop2x2,
+#desktop3,
+#desktop3x2 {
+  display: none;
+}
+.black {
+  display: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 3.2rem;
+}
+
+.img__box {
+  width: 100%;
+}
+
+.header__img {
+  width: 100%;
+}
+
+.header__content {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  margin: 3.2rem 1.6rem 12rem 1.6rem;
+}
+
+.header__title {
+  max-width: 34.3rem;
+}
+
+.title {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 5.5rem;
+
+  text-transform: uppercase;
+  color: #151515;
+}
+
+.header__text {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.header__para {
+  max-width: 34.3rem;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #444444;
+}
+
+.location__div {
+  width: 26rem;
+  display: flex;
+}
+
+.location {
+  background: #151515;
+  width: 20.4rem;
+  height: 7.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.anchor {
+  color: white;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: 3.6px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.arrow-div {
+  background: #d5966c;
+  width: 5.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 0.8rem;
+  height: 2.4rem;
+}
+
+.location__div:hover .location {
+  background-color: #d5966c;
+}
+
+.location__div:hover .arrow-div {
+  background-color: #151515;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1.6rem 12rem 1.6rem;
+}
+
+.first__title {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 4.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.1rem;
+  text-transform: uppercase;
+
+  color: #151515;
+}
+
+.first__para {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 3.2rem;
+
+  color: #444444;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.second__img-box {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.second__text {
+  background: #151515;
+}
+
+.second__title {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 4.5rem;
+  margin: 4.8rem 2.4rem 2.4rem 2.4rem;
+
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.second__para {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin: 0 2.4rem 4.8rem 2.4rem;
+
+  color: #ffffff;
+}
+
+.footer {
+  background-color: #151515;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__content {
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+}
+
+.footer__logo {
+  margin: 4.8rem 3.2rem;
+}
+
+.logo {
+  width: 11rem;
+  height: 4rem;
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.icon:hover {
+  fill: #d5966c;
+}
+
+.footer__para {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  margin-bottom: 3.8rem;
+  color: #ffffff;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  width: 10rem;
+  margin-left: 3.2rem;
+  margin-bottom: 4.8rem;
+}
+
+/* mobile x2 version */
+@media screen and (min-width: 375px) {
+  #hero__mobile,
+  #mobile1,
+  #mobile2,
+  #mobile3 {
+    display: none;
+  }
+
+  #hero__mobilex2,
+  #mobile1x2,
+  #mobile2x2,
+  #mobile3x2 {
+    display: block;
+  }
+}
+
+/* tablet version */
+
+@media screen and (min-width: 768px) {
+  #hero__mobilex2,
+  #mobile1x2,
+  #mobile2x2,
+  #mobile3x2 {
+    display: none;
+  }
+
+  #hero__tablet,
+  #tablet1,
+  #tablet2,
+  #tablet3 {
+    display: block;
+  }
+}
